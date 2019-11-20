@@ -1,0 +1,75 @@
+{
+	"auto_indent": true,
+	"binary_file_patterns":
+	[
+		".DS_Store",
+		"node_modules/",
+		"tmp/",
+		"*.png",
+		"*.psd",
+		"*.ai",
+		"*.min.js",
+		"tmp/",
+		"_tmp/"
+	],
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Night Owl/Night Owl.sublime-color-scheme",
+	"file_exclude_patterns":
+	[
+		".DS_Store"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".awestruct",
+		".sass-cache",
+		"_developer-materials",
+		"_downloads",
+		"_tmp",
+		"_specs",
+		"_site",
+		"_products",
+		"_projects"
+	],
+	"font_face": "Cascadia Code",
+	"font_size": 16,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"index_files": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"linters":
+	{
+		"eslint":
+		{
+			"selector": "text.html.vue, source.js - meta.attribute-with-value"
+		}
+	},
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": true,
+	"show_full_path": true,
+	"show_tab_close_buttons": false,
+	"spell_check": false,
+	"tab_size": 2,
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true,
+	"word_wrap": true
+}
