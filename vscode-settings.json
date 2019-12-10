@@ -17,7 +17,6 @@
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "editor.formatOnSaveTimeout": 5000,
-  "editor.autoFixOnSave": false,
   "editor.tabCompletion": "on",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
@@ -29,9 +28,10 @@
   "[vue]": {
     "editor.formatOnSave": false
   },
-  "[php]": {
-    "editor.defaultFormatter": "junstyle.php-cs-fixer"
-  },
+  // "ruby.lint": {
+  //   "rubocop": true
+  // },
+  // "ruby.format": "rubocop",
   // Workbench
   "workbench.settings.editor": "json",
   "workbench.fontAliasing": "default",
@@ -155,7 +155,5 @@
       "value": "#42b883"
     }
   ],
-  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1573130894611,
   "window.zoomLevel": 0,
 }
